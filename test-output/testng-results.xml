@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97" started-at="2016-08-17T12:13:53Z" finished-at="2016-08-17T12:13:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97" started-at="2016-08-17T12:13:53Z" finished-at="2016-08-17T12:13:53Z">
+      <class name="train1.AppTest">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:train1.AppTest@457e2f02]" name="BeforeClass" is-config="true" duration-ms="1" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:train1.AppTest@457e2f02]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:train1.AppTest@457e2f02]" name="test1" duration-ms="17" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:train1.AppTest@457e2f02]" name="AfterMethod" is-config="true" duration-ms="2" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:train1.AppTest@457e2f02]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:train1.AppTest@457e2f02]" name="test" duration-ms="3" started-at="2016-08-17T20:13:53Z" depends-on-methods="train1.AppTest.test1" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:train1.AppTest@457e2f02]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:train1.AppTest@457e2f02]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- train1.AppTest -->
+      <class name="train1.APPTest2">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:train1.AppTest@457e2f02]" name="BeforeSuite" is-config="true" duration-ms="11" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:train1.AppTest@457e2f02]" name="BeforeTest" is-config="true" duration-ms="4" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:train1.APPTest2@5c7fa833]" name="BeforeClass" is-config="true" duration-ms="1" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:train1.APPTest2@5c7fa833]" name="BeforeMethod" is-config="true" duration-ms="2" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:train1.APPTest2@5c7fa833]" name="test" duration-ms="7" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:train1.APPTest2@5c7fa833]" name="AfterMethod" is-config="true" duration-ms="3" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:train1.APPTest2@5c7fa833]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:train1.APPTest2@5c7fa833]" name="test1" duration-ms="3" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:train1.APPTest2@5c7fa833]" name="AfterMethod" is-config="true" duration-ms="3" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:train1.APPTest2@5c7fa833]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:train1.AppTest@457e2f02]" name="AfterTest" is-config="true" duration-ms="0" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:train1.AppTest@457e2f02]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2016-08-17T20:13:53Z" finished-at="2016-08-17T20:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- train1.APPTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

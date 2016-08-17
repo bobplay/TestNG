@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43" started-at="2016-08-17T07:47:16Z" finished-at="2016-08-17T07:47:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43" started-at="2016-08-17T07:47:16Z" finished-at="2016-08-17T07:47:16Z">
+      <class name="train1.AppTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:train1.AppTest@6108b2d7]" name="test" duration-ms="16" started-at="2016-08-17T15:47:16Z" finished-at="2016-08-17T15:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:train1.AppTest@6108b2d7]" name="test1" duration-ms="0" started-at="2016-08-17T15:47:16Z" finished-at="2016-08-17T15:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- train1.AppTest -->
+      <class name="train1.APPTest2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:train1.APPTest2@6cd8737]" name="test2" duration-ms="1" started-at="2016-08-17T15:47:16Z" finished-at="2016-08-17T15:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- train1.APPTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
