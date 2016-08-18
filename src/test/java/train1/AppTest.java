@@ -1,12 +1,16 @@
 package train1;
 
+import java.util.Random;
+
+import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-
+@Test
 public class AppTest{
 	@BeforeSuite
 	public void BeforeSuite(){
@@ -32,13 +36,21 @@ public class AppTest{
 	public void AfterMethod(){
 		System.out.println("AfterMethod____________");
 	}	
-	@Test(dependsOnMethods="test1")
-	public void test(){
-		System.out.println("++++"); 
-	}	
-	@Test
+
+	@Test(invocationCount=5,skipFailedInvocations=true)
 	public void test1(){
-		System.out.println("---------------this is test1");
+		int r = new Random().nextInt(3);
+		System.out.println("this is 11--"+r);
+		AssertJUnit.assertFalse(r<2);
+	}	
+
+	private void test2(){
+		System.out.println("time out");
+		String str="";
+		for(int i=0;i<100000;i++){
+			str += String.valueOf(i);
+		}
+		
 	}	
 	@org.testng.annotations.AfterTest
 	public void AfterTest(){

@@ -101,22 +101,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="train1.AppTest" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="train1.DataProviderTest" hash-for-method="Data1(4, 5)">Data1(4, 5)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="train1.APPTest2" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="train1.DataProviderTest" hash-for-method="Data1(3, 5)">Data1(3, 5)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="train1.APPTest2" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="train1.DataProviderTest" hash-for-method="Data2(peilei, 234)">Data2(peilei, 234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="train1.AppTest" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="train1.DataProviderTest" hash-for-method="Data2(admin, 123)">Data2(admin, 123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -134,43 +134,39 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">train1.AppTest</span>
+              <span class="class-name">train1.DataProviderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
+                  <a name="Data1(4, 5)">
+                  </a> <!-- Data1(4, 5) -->
+                  <span class="method-name">Data1</span>
+                  <span class="parameters">(4, 5)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-          <div class="suite-Default_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">train1.APPTest2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
+                  <a name="Data1(3, 5)">
+                  </a> <!-- Data1(3, 5) -->
+                  <span class="method-name">Data1</span>
+                  <span class="parameters">(3, 5)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
+                  <a name="Data2(peilei, 234)">
+                  </a> <!-- Data2(peilei, 234) -->
+                  <span class="method-name">Data2</span>
+                  <span class="parameters">(peilei, 234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Data2(admin, 123)">
+                  </a> <!-- Data2(admin, 123) -->
+                  <span class="method-name">Data2</span>
+                  <span class="parameters">(admin, 123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,11 +180,12 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot; name=&quot;Default suite&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;1.0.2&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;train1.AppTest&quot;/&gt;
-      &lt;class name=&quot;train1.APPTest2&quot;/&gt;
+      &lt;class name=&quot;train1.DataProviderTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -202,7 +199,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (2 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -230,26 +227,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test1')
-data.setCell(0, 2, 'train1.AppTest')
-data.setCell(0, 3, 17);
+data.setCell(0, 1, 'Data1')
+data.setCell(0, 2, 'train1.DataProviderTest')
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test')
-data.setCell(1, 2, 'train1.APPTest2')
-data.setCell(1, 3, 7);
+data.setCell(1, 1, 'Data2')
+data.setCell(1, 2, 'train1.DataProviderTest')
+data.setCell(1, 3, 3);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test1')
-data.setCell(2, 2, 'train1.APPTest2')
+data.setCell(2, 1, 'Data2')
+data.setCell(2, 2, 'train1.DataProviderTest')
 data.setCell(2, 3, 3);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test')
-data.setCell(3, 2, 'train1.AppTest')
-data.setCell(3, 3, 3);
+data.setCell(3, 1, 'Data1')
+data.setCell(3, 2, 'train1.DataProviderTest')
+data.setCell(3, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 ms</span>
+              <span class="suite-total-time">Total running time: 18 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -275,99 +272,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">train1.AppTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">BeforeSuite</span>
+              <div class="chronological-class-name">train1.DataProviderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Data1(3, 5)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">BeforeTest</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Data1(4, 5)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Data2(admin, 123)</span>
                 <span class="method-start">16 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">BeforeClass</span>
-                <span class="method-start">29 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">BeforeMethod</span>
-                <span class="method-start">39 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">39 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">AfterMethod</span>
-                <span class="method-start">64 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">BeforeMethod</span>
-                <span class="method-start">75 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test</span>
-                <span class="method-start">75 ms</span>
+                <span class="method-name">Data2(peilei, 234)</span>
+                <span class="method-start">20 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">AfterMethod</span>
-                <span class="method-start">82 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">train1.APPTest2</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">BeforeClass</span>
-                <span class="method-start">83 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">train1.AppTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">83 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">train1.APPTest2</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">BeforeMethod</span>
-                <span class="method-start">84 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">test</span>
-                <span class="method-start">86 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">AfterMethod</span>
-                <span class="method-start">96 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">BeforeMethod</span>
-                <span class="method-start">100 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">101 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">AfterMethod</span>
-                <span class="method-start">105 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">108 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">train1.AppTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">AfterTest</span>
-                <span class="method-start">109 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">AfterSuite</span>
-                <span class="method-start">141 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
