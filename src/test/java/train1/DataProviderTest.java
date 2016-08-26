@@ -46,13 +46,11 @@ public class DataProviderTest {
 		BufferedReader br = null;
 		try {
 			String str = null;
-			int line = 1;
 			br = new BufferedReader(new FileReader(file));
-			List<Object[]> list = new ArrayList<>();
+			List<Object[]> list = new ArrayList<Object[]>();
 			while((str = br.readLine()) != null){
 				String[] strs =str.split(" ");
 			    list.add(new Object[]{strs[0],strs[1]});
-				line++;
 			}
 			
 			if(list.size()>0){

@@ -35,6 +35,7 @@ public class APPTest2 {
 	@Test
 	public void test(){
 		System.out.println("++++222222222222"); 
+		throw new NullPointerException();
 	}	
 	@Test
 	public void test1(){

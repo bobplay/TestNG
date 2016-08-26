@@ -4,6 +4,7 @@ import java.util.Random;
 
 import org.testng.Assert;
 import org.testng.AssertJUnit;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -35,13 +36,15 @@ public class AppTest{
 	@AfterMethod
 	public void AfterMethod(){
 		System.out.println("AfterMethod____________");
+		
 	}	
 
-	@Test(invocationCount=5,skipFailedInvocations=true)
+	@Test(invocationCount=5,skipFailedInvocations=false)
 	public void test1(){
 		int r = new Random().nextInt(3);
 		System.out.println("this is 11--"+r);
-		AssertJUnit.assertFalse(r<2);
+		Reporter.log("sssssssss");
+		AssertJUnit.assertTrue(r<2);
 	}	
 
 	private void test2(){
